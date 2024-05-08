@@ -49,7 +49,7 @@ body{
   color:var(--Light-Grey);
   font-weight: 400;
   font-size: 15px;
-  line-height: 2;
+  line-height: 1.8;
   padding-right: .6rem;
 }
 .sub-item-b {
@@ -96,4 +96,32 @@ body{
 }
 #item2 {
   display: none;
+  background-color: hsl(var(--background),.7);
+  color:var(--White);
+  max-width: 27rem;
+  border-radius: 2rem;
+  text-align: center;
 }
+.new {
+  display: flex;
+  justify-content: center;
+}
+.new img{
+  margin:2rem 1rem;
+}
+#item2 >label {
+  margin:auto;
+}
+#item2 h2 {
+  font-weight: 700;
+  font-size: 1.8rem;
+
+}
+
+
+#item2 p{
+  color: var(--Light-Grey);
+  line-height: 2rem;
+  margin:1.5rem 2.3rem 3rem;
+}
+
